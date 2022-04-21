@@ -1,3 +1,11 @@
-body {
-  margin: 0;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.add-btn {
+    @apply bg-orange-500 text-white font-bold py-1 px-6 rounded my-3 hover:bg-orange-600;
+}
+
+.icon {
+    @apply w-4 h-4 m-1 hover:cursor-pointer;
 }
